@@ -151,6 +151,20 @@
     button.add-event:hover {
       background: #0056b3;
     }
+    }
+.message{
+      background: #ff4e4e;
+      color:white;
+      text-align: center;
+      margin-top:20px;
+}
+.alertBox{
+      position: fixed;
+      top: 20px;
+      left:50%;
+      transform:translateX(-50%);
+      z-index: 999;
+}
   </style>
 </head>
 <body>
@@ -311,20 +325,7 @@
       localStorage.setItem(`${currentUser}_events`, JSON.stringify(events));
       eventInput.value = "";
       loadEvents();
-    }
-#message{
-      background: #ff4e4e;
-      color:white;
-      text-align: center;
-      margin-top:20px;
-}
-#alertBox{
-      position: fixed;
-      top: 20px;
-      left:50%;
-      transform:translateX(-50%);
-      z-index: 999;
-}
+      
     renderCalendar(currentMonth, currentYear);
   </script>
 </body>
