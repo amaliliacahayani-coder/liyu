@@ -394,25 +394,20 @@
     setTimeout(() => { setLoading('registerBtn',false,registerDefault); showToast('Account created! Welcome to Nexus 🎉','success'); }, 1800);
   });
   
-<form id="registerForm">
-    <h3>Register</h3>
- <label for="username">Nama Pengguna</label>
-    <input type="text" id="username" required placeholder="Username">
- <label for="username">Email</label>
-    <input type="email" id="email" required placeholder="Email">
- <label for="username">Password</label>
-     <input type="password" id="password" required placeholder="Password">
- <p id="message"></p>
-    <button type="submit">Daftar</button>
- <div class="social">
-       <div class="go"> <a href="index.html">Login </a></div>
-       <div class="kanan"><i class="fab fa-google"></i>with Google</div>
-       </div>
-</div>
-<p id="message"></p>
-</form>
+ <div id="loginPanel" class="form-wrapper">
+    <p class="form-title">Welcome back 👋</p>
+    <p class="form-subtitle">Sign in to continue to Nexus.</p>
+    <form id="loginForm">
+      <div class="input-group">
+        <input type="text" id="username" placeholder="Nama Pengguna.." required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" placeholder="Password.." required>
+      </div>
+      <button type="submit" class="btn-cta" id="loginBtn">Sign in</button>
+    </form>
+  </div>
 
-  
   <script src="js/register.js" defer></script>
 </script>
 </body>
