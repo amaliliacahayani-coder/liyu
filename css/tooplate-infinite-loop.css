@@ -509,7 +509,7 @@ figure.effect-honey:hover h2 i {
 	padding-top: 30px;
 	}
 
-/* Kontak */
+/* Contact */
 
 #kontak {
   color: white;
@@ -523,12 +523,12 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
-.kontak-item {
+.contact-item {
   margin-left: 20px;
   margin-bottom: 50px;
 }
 
-.item-link {
+.contact-link {
   display: flex;
   align-items: center;
 }
