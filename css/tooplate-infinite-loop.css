@@ -679,13 +679,13 @@ p {
 }
 
 @media (max-width: 480px) {
-  .tm-dokumentasi-container {
+  .tm-gallery-container {
     max-width: 220px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .tm-dokumentasi-container-2 {
+  .tm-gallery-container-2 {
     max-width: 350px;
   }
 
@@ -693,7 +693,7 @@ p {
     margin: 0 8px;
   }
 
-  .tm-dokumentasi-item {
+  .tm-gallery-item {
     margin: 0;
   }
 }
