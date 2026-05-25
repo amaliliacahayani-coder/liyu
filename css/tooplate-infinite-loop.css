@@ -328,12 +328,12 @@ blockquote {
   font-size: 0.9rem;
 }
 
-.tm-gallery-container {
+.tm-dokumentasi-container {
   padding-top: 70px;
   padding-bottom: 120px;
 }
 
-.tm-gallery-item {
+.tm-dokumentasi-item {
   margin: 0 15px;
 }
 
@@ -352,7 +352,7 @@ blockquote {
   color: #3ba0dd;
 }
 
-.tm-testimonis-carousel .slick-dots li button:before {
+.tm-testimoni-carousel .slick-dots li button:before {
   color: white;
   opacity: 0.5;
 }
@@ -509,9 +509,9 @@ figure.effect-honey:hover h2 i {
 	padding-top: 30px;
 	}
 
-/* Contact */
+/* Kontak */
 
-#contact {
+#kontak {
   color: white;
   background-color: #001828;
   background-image: url(../img/hal-bawah.jpg);
@@ -523,7 +523,7 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
-.contact-item {
+.kontak-item {
   margin-left: 20px;
   margin-bottom: 50px;
 }
@@ -679,13 +679,13 @@ p {
 }
 
 @media (max-width: 480px) {
-  .tm-gallery-container {
+  .tm-dokumentasi-container {
     max-width: 220px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .tm-gallery-container-2 {
+  .tm-dokumentasi-container-2 {
     max-width: 350px;
   }
 
@@ -693,7 +693,7 @@ p {
     margin: 0 8px;
   }
 
-  .tm-gallery-item {
+  .tm-dokumentasi-item {
     margin: 0;
   }
 }
