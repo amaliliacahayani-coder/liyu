@@ -185,7 +185,7 @@
   <div id="registerPanel" class="form-wrapper hidden">
     <p class="form-title">Join Nexus ✨</p>
     <p class="form-subtitle">Create your account in seconds.</p>
-    <form id="registerFormEl" novalidate>
+    <form id="registerForm" novalidate>
       <div class="input-group">
         <span class="input-icon" id="iconRegUser">
           <svg width="17" height="17"><use href="#ic-user"/></svg>
@@ -193,13 +193,13 @@
         <input type="text" id="username" placeholder="username" required
           onfocus="iconFocus('iconRegUser')" onblur="iconBlur('iconRegUser')">
       </div>
-      <div class="feedback" id="username"></div>
+      <div class="feedback" ></div>
 
       <div class="input-group">
         <span class="input-icon" id="iconRegEmail">
           <svg width="17" height="17"><use href="#ic-mail"/></svg>
         </span>
-        <input type="email" id="Email" placeholder="Email address" required
+        <input type="email" id="email" placeholder="Email address" required
           onfocus="iconFocus('iconRegEmail')" onblur="iconBlur('iconRegEmail')">
       </div>
       <div class="feedback" id="email"></div>
@@ -208,7 +208,7 @@
         <span class="input-icon" id="iconRegPw">
           <svg width="17" height="17"><use href="#ic-key"/></svg>
         </span>
-        <input type="password" id="regPassword" placeholder="Password" required
+        <input type="password" id="password" placeholder="Password" required
           onfocus="iconFocus('iconRegPw')" onblur="iconBlur('iconRegPw')">
         <span class="toggle-password" id="tglRegPw" onclick="togglePw('regPassword','tglRegPw')">
           <svg width="18" height="18" id="eyeRegPw"><use href="#ic-eye"/></svg>
